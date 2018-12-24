@@ -11,7 +11,7 @@ int main()
     column=3;
     int arr[row][column];
     int k=0;
-    for(int i=0;i<row;i++)  // filling the array with 0-9 value
+    for(int i=0;i<row;i++)  // filling the array with 0-8 value
         for(int j=0;j<column;j++)
         arr[i][j]=k++;
     int top=0;
