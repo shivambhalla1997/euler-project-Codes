@@ -16,7 +16,7 @@ int main()
         if(arr[i]==0 && (2*i)<=N)
         {
             for(long long int j=(2*i);j<=N;j+=i) // making all the multiple out the number out of the list
-                arr[j]=1;
+                arr[j]=1;                        // making all the non-primes == 1
         }
     }
     for(long long int i=2;i<=N;i++)  //printing the primes
